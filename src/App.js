@@ -4,6 +4,8 @@ import Hero from './components/Hero';
 import Features from './components/Features';
 import Client from './components/Client';
 import Services from './components/Services';
+import About from './components/About';
+
 import NewsLetter from './components/NewsLetter';
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
        <Features />
        <Client />
        <Services />
+       <About />
+
        <NewsLetter />
     </div>
   );
