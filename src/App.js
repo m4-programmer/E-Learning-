@@ -6,6 +6,7 @@ import Client from './components/Client';
 import Services from './components/Services';
 import About from './components/About';
 import Achievement from './components/Achievement';
+import AppInfo from './components/AppInfo';
 
 import NewsLetter from './components/NewsLetter';
 
@@ -19,7 +20,7 @@ function App() {
        <Services />
        <About />
        <Achievement />
-       
+       <AppInfo />
 
 
        <NewsLetter />
