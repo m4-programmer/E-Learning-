@@ -5,6 +5,7 @@ import Features from './components/Features';
 import Client from './components/Client';
 import Services from './components/Services';
 import About from './components/About';
+import Achievement from './components/Achievement';
 
 import NewsLetter from './components/NewsLetter';
 
@@ -17,6 +18,9 @@ function App() {
        <Client />
        <Services />
        <About />
+       <Achievement />
+       
+
 
        <NewsLetter />
     </div>
