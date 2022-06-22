@@ -8,7 +8,6 @@ import About from './components/About';
 import Achievement from './components/Achievement';
 import AppInfo from './components/AppInfo';
 import Testimonials from './components/Testimonials';
-
 import NewsLetter from './components/NewsLetter';
 
 function App() {
@@ -23,9 +22,6 @@ function App() {
        <Achievement />
        <AppInfo />
        { /*<Testimonials /> */}
-       
-
-
        <NewsLetter />
     </div>
   );
