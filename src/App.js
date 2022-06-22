@@ -9,6 +9,8 @@ import Achievement from './components/Achievement';
 import AppInfo from './components/AppInfo';
 import Testimonials from './components/Testimonials';
 import NewsLetter from './components/NewsLetter';
+import PricingTable from './components/PricingTable';
+import CallAction from './components/CallAction';
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
        <AppInfo />
        { /*<Testimonials /> */}
        <NewsLetter />
+       <PricingTable />
+       <CallAction />
     </div>
   );
 }
