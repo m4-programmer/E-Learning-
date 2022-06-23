@@ -11,6 +11,7 @@ import Testimonials from './components/Testimonials';
 import NewsLetter from './components/NewsLetter';
 import PricingTable from './components/PricingTable';
 import CallAction from './components/CallAction';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -23,10 +24,11 @@ function App() {
        <About />
        <Achievement />
        <AppInfo />
-       { /*<Testimonials /> */}
+       <Testimonials />
        <NewsLetter />
        <PricingTable />
        <CallAction />
+       <Footer />
     </div>
   );
 }
