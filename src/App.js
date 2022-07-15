@@ -1,33 +1,57 @@
 import './App.css';
 import Nav from './components/Nav';
-import Hero from './components/Hero';
-import Features from './components/Features';
-import Client from './components/Client';
-import Services from './components/Services';
-import About from './components/About';
-import Achievement from './components/Achievement';
-import AppInfo from './components/AppInfo';
-import Testimonials from './components/Testimonials';
-import NewsLetter from './components/NewsLetter';
-import PricingTable from './components/PricingTable';
-import CallAction from './components/CallAction';
+import Homepage from './layout/Homepage';
 import Footer from './components/Footer';
+import { BrowserRouter,Routes, Route, Switch } from 'react-router-dom';
+
+
+
+
+import Track_Details from './layout/Track_Details';
+import Contact from './layout/Contact';
+import Course from './layout/Course';
+import CourseDetails from './layout/CourseDetails';
+import NotFound from './layout/NotFound';
+import About from './layout/About';
+import FAQ from './layout/FAQ';
+import Blogs from './layout/Blogs';
+import BlogDetails from './layout/BlogDetails';
+import Login from './Auth/Login';
+import Register from './Auth/Register';
 
 function App() {
   return (
     <div className="App">
-       <Nav />
-       <Hero />
-       <Features />
-       <Client />
-       <Services />
-       <About />
-       <Achievement />
-       <AppInfo />
-       <Testimonials />
-       <NewsLetter />
-       <PricingTable />
-       <CallAction />
+      
+      <BrowserRouter>
+        <Nav/>
+      <Routes>
+        
+          <Route path="/" element={<Homepage />} />
+          
+          <Route path="/track_details" element={<Track_Details />} />
+
+          <Route path="/courses" element={<Course />} />
+          <Route path="/course_details" element={<CourseDetails />} />
+
+          <Route path="/about" element={<About />} />
+          <Route path="/faq" element={<FAQ />} />
+
+
+          <Route path="/blogs" element={<Blogs />} />
+          <Route path="/blog_details" element={<BlogDetails />} />
+          
+
+          <Route path="/contact" element={<Contact />} />
+          {/* Begining of Authentication Route */}
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+          {/* End of Authentication Route */}
+
+          <Route path="*" element={<NotFound/>} />
+      
+      </Routes>
+    </BrowserRouter>
        <Footer />
     </div>
   );

@@ -17,7 +17,21 @@ export default class Testimonials extends Component {
         </div>
       </div>
       <div className="slider-head">
-        <div className="tns-outer" id="tns1-ow"><div className="tns-nav" aria-label="Carousel Pagination"><button type="button" data-nav={0} aria-controls="tns1" style={{}} aria-label="Carousel Page 1" className tabIndex={-1} /><button type="button" data-nav={1} aria-controls="tns1" style={{}} aria-label="Carousel Page 2 (Current Slide)" className="tns-nav-active" /><button type="button" data-nav={2} tabIndex={-1} aria-controls="tns1" style={{display: 'none'}} aria-label="Carousel Page 3" /><button type="button" data-nav={3} tabIndex={-1} aria-controls="tns1" style={{display: 'none'}} aria-label="Carousel Page 4" /><button type="button" data-nav={4} tabIndex={-1} aria-controls="tns1" style={{display: 'none'}} aria-label="Carousel Page 5" /><button type="button" data-nav={5} tabIndex={-1} aria-controls="tns1" style={{display: 'none'}} aria-label="Carousel Page 6" /></div><div className="tns-liveregion tns-visually-hidden" aria-live="polite" aria-atomic="true">slide <span className="current">9 to 11</span>  of 6</div><div id="tns1-mw" className="tns-ovh"><div className="tns-inner" id="tns1-iw"><div className="row testimonial-slider  tns-slider tns-carousel tns-subpixel tns-calc tns-horizontal" id="tns1" style={{transform: 'translate3d(-50%, 0px, 0px)'}}><div className="col-lg-4 col-md-6 col-12 tns-item tns-slide-cloned" aria-hidden="true" tabIndex={-1}>
+        <div className="tns-outer" id="tns1-ow">
+          <div className="tns-nav" aria-label="Carousel Pagination">
+            <button type="button" data-nav={0} aria-controls="tns1" style={{}} aria-label="Carousel Page 1" className tabIndex={-1} />
+            <button type="button" data-nav={1} aria-controls="tns1" style={{}} aria-label="Carousel Page 2 (Current Slide)" className="tns-nav-active" />
+            <button type="button" data-nav={2} tabIndex={-1} aria-controls="tns1" style={{display: 'none'}} aria-label="Carousel Page 3" />
+            <button type="button" data-nav={3} tabIndex={-1} aria-controls="tns1" style={{display: 'none'}} aria-label="Carousel Page 4" />
+            <button type="button" data-nav={4} tabIndex={-1} aria-controls="tns1" style={{display: 'none'}} aria-label="Carousel Page 5" />
+            <button type="button" data-nav={5} tabIndex={-1} aria-controls="tns1" style={{display: 'none'}} aria-label="Carousel Page 6" />
+          </div>
+          <div className="tns-liveregion tns-visually-hidden" aria-live="polite" aria-atomic="true">slide 
+            <span className="current">9 to 11</span>  of 6</div>
+            <div id="tns1-mw" className="tns-ovh">
+            <div className="tns-inner" id="tns1-iw">
+            <div className="row testimonial-slider  tns-slider tns-carousel tns-subpixel tns-calc tns-horizontal" id="tns1" style={{transform: 'translate3d(-50%, 0px, 0px)'}}>
+            <div className="col-lg-4 col-md-6 col-12 tns-item tns-slide-cloned" aria-hidden="true" tabIndex={-1}>
                   {/* Start Single Testimonial */}
                   <div className="single-testimonial">
                     <div className="top-section">
