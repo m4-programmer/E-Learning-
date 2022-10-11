@@ -9,9 +9,9 @@ export default class Hero extends Component {
       <div className="row align-items-center">
         <div className="col-lg-6 col-md-12 col-12">
           <div className="hero-content wow fadeInLeft" data-wow-delay=".3s">
-            <h1>Become a  Developer today</h1>
-            <p>We groom novice with 0% knowledge of programming to become 
-              experts in programming in the shortest possible time.</p>
+            <h1 style={{textTransform: 'uppercase'}}>Become a  Tech Expert today</h1>
+            <p>We train beginners with zero knowledge in tech to become 
+              experts in various tech fields in the shortest possible time.</p>
             <div className="button mt-3">
               <Link to="register" type="submit" className="btn">Register Now</Link>
             </div>

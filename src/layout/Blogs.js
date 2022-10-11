@@ -1,8 +1,10 @@
 import React from 'react'
+import BreadCrumb from '../components/BreadCrumb'
 
 function Blogs() {
   return (
       <div>
+        <BreadCrumb  title='Blog Details' />
   {/* Begining of blog-grid Section */}
   <section className="section blog-section blog-list">
     <div className="container">

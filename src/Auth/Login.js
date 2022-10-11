@@ -2,6 +2,16 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 
 function Login() {
+  const LoginHandler = (e) => {
+    e.preventDefault();
+    // Login For Login in User's
+    const details = {
+      email: 'miraboy13@gmail.com',
+      password : '12345'
+    }
+    
+    alert("submitted");
+  }
   return (
       <div>
   {/* start login section */}
@@ -11,7 +21,7 @@ function Login() {
         <div className="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-12">
           <div className="form-head">
             <h4 className="title">Login</h4>
-            <form action="#!" method="post">
+            <form onSubmit={LoginHandler}>
               <div className="form-group">
                 <label>Username or email</label>
                 <input name="email" type="email" />
@@ -29,7 +39,7 @@ function Login() {
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-6 col-12">
-                    <a href="javascript:void(0)" className="lost-pass">Lost your password?</a>
+                    <Link to='#' className="lost-pass">Lost your password?</Link>
                   </div>
                 </div>
               </div>
@@ -41,15 +51,16 @@ function Login() {
               </div>
               <div className="socila-login">
                 <ul>
-                  <li><a href="javascript:void(0)" className="facebook"><i className="lni lni-facebook-original" />Login With
-                      Facebook</a></li>
-                  <li><a href="javascript:void(0)" className="google"><i className="lni lni-google" />Login
+                  <li><Link to='#' className="facebook"><i className="lni lni-facebook-original" />Login With
+                      Facebook</Link></li>
+                  <li><Link to='#' className="google"><i className="lni lni-google" />Login
                       With Google
-                      Plus</a>
+                      Plus</Link>
                   </li>
                 </ul>
               </div>
-              <p className="outer-link">Don't have an account? <Link to="../register">Register here</Link>
+                  <p className="outer-link">Don't have an account?
+                    <Link to="../register">Register here</Link>
               </p>
             </form>
           </div>

@@ -26,7 +26,7 @@ const Homepage = () => {
        <AppInfo />
        
        <NewsLetter />
-       <PricingTable />
+       
        <CallAction />
     </div>
   )

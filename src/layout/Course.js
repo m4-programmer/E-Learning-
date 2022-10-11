@@ -1,8 +1,10 @@
 import React from 'react'
+import BreadCrumb from '../components/BreadCrumb'
 
 function Course() {
   return (
       <div>
+        <BreadCrumb  title='Course Details' />
      {/* Start of Courses Area */}
 <section className="portfolio-section section">
   <div id="container" className="container">

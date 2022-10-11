@@ -1,8 +1,10 @@
 import React from 'react'
+import BreadCrumb from '../components/BreadCrumb'
 
 function Track_Details() {
   return (
       <div>
+          <BreadCrumb title='Track Details' />
           {/* <!-- Track Details Start --> */}
     <div className="service-details section">
         <div className="container">

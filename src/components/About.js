@@ -17,7 +17,10 @@ export default class About extends Component {
           <div className="content wow fadeInRight" data-wow-delay=".5s">
             <div className="heading">
               <h2>People choose us because of our service</h2>
-              <p>M4 Academy started out as an offline instituion that impact knowledge to absolute beginners and make them programmers in at least two month, depending on the track they are taking. From our research, we found out that  90% of our student enjoys our pattern of teaching because we utilize the best method that fit each individual, hence we also wish to extend this opportunity globaaly to any one that will tke that bold step to taking a course with us.</p>
+                    <p>M4 Academy is an online and an offline technology institution that impact knowledge to beginners and make them proficient programmers in at least two month,
+                      depending on the track they are taking. <br />Our analysis have shown that 98% of our student enjoys using our learning platform
+                      because we tailor our training in a way that impacts real wolrd knowledge, thus improving our students expertise in relevant mordern technologies .
+                    </p>
             </div>
             <div className="list">
               {/* Start Single List */}

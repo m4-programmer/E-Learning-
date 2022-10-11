@@ -1,8 +1,10 @@
 import React from 'react'
+import BreadCrumb from '../components/BreadCrumb'
 
 function Contact() {
   return (
       <div>
+      <BreadCrumb  title='Contact Us' />
 {/* Begining of Contact Section */}
 <section id="contact-us" className="contact-us section">
   <div className="container">

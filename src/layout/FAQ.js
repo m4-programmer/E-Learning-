@@ -1,8 +1,10 @@
 import React from 'react'
-
+import BreadCrumb from '../components/BreadCrumb'
+const title = 'FAQ'
 function FAQ() {
   return (
-     <div>
+    <div>
+      <BreadCrumb title={title} />
   {/* Start FAQ Area */}
   <section className="faq section">
     <div className="container">

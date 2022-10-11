@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-
-export default class CallAction extends Component {
-  render() {
+import {Link} from 'react-router-dom'
+const CallAction = () =>  {
+  
     return (
      <div>
   <section className="call-action">
@@ -15,9 +15,9 @@ export default class CallAction extends Component {
         </div>
         <div className="col-lg-6 col-12">
           <div className="button">
-            <a href="registration.html" className="btn">Sign Up
-            </a>
-            <a href="faq.html" className="btn btn-alt">Learn More</a>
+            <Link to="/register" className="btn">Sign Up
+            </Link>
+            <Link to="/faq" className="btn btn-alt">Learn More</Link>
           </div>
         </div>
       </div>
@@ -27,4 +27,6 @@ export default class CallAction extends Component {
 
     )
   }
-}
+
+
+export default  CallAction

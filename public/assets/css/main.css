@@ -2331,7 +2331,7 @@ ol {
 .hero-area {
   position: relative;
   padding: 150px 0 120px 0;
-  background: #fff;
+  background: rgb(0, 255, 255);
 }
 
 .hero-area.style1 .hero-image img {
@@ -4086,7 +4086,7 @@ ol {
 .services.style3 .single-service {
   position: relative;
   text-align: left;
-  padding: 50px;
+  padding: 0px 0 15px;
   -webkit-box-shadow: 0px 0px 30px rgba(138, 138, 138, 0.23);
           box-shadow: 0px 0px 30px rgba(138, 138, 138, 0.23);
   border-radius: 5px;
@@ -4095,6 +4095,19 @@ ol {
   overflow: hidden;
   margin-top: 30px;
 }
+/* Modified here on 23/09/2022 */
+/* .services.style3 .padded{
+  padding: 0 50px;
+} */
+.padded h3{
+  text-align: center;
+  text-transform: lowercase;
+  
+}
+.padded p{
+  padding: 0 10px 0;
+}
+/* End of Modifications */
 
 .services.style3 .single-service::before {
   position: absolute;
@@ -4139,9 +4152,9 @@ ol {
 .services .single-head {
   position: relative;
 }
-
+/* Tracks Styles */
 .single-service {
-  padding: 50px 40px;
+  /* padding: 50px 40px; */
   background-color: #F0F3FA;
   border-radius: 10px;
   text-align: center;
@@ -4163,7 +4176,7 @@ ol {
 .single-service h3 a {
   color: #061E5C;
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 600;
   text-transform: capitalize;
 }
 
