@@ -13,11 +13,13 @@ import CallAction from '../components/CallAction';
 
 
 import React from 'react'
+import PopularCourses from '../components/PopularCourses';
 
 const Homepage = () => {
   return (
       <div>
-        <Hero />
+      <Hero />
+      <PopularCourses />
        <Features />
        <Client />
        <Services />

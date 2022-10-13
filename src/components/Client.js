@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
+import React  from 'react'
 
-export default class Client extends Component {
-  render() {
+ const Client = () => {
+  
     return (
       <div>
   <div className="client-logo-section" style={{backgroundColor: '#344'}}>
@@ -33,5 +33,7 @@ export default class Client extends Component {
 </div>
 
     )
-  }
+  
 }
+
+export default Client

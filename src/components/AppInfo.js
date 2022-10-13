@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
-export default class AppInfo extends Component {
-  render() {
+ const AppInfo = () => {
+ 
     return (
       <div>
   <section id="overview" className="app-info section">
@@ -20,7 +21,8 @@ export default class AppInfo extends Component {
               <p>M4 Academy Has Already Helped Countless of People Around The World - Are You Next?
               </p>
               <div className="button">
-                <a href="registration.html" className="btn">Get Started </a>
+                <Link to={'/register'} className="btn">Get Started</Link>
+                
               </div>
             </div>
             {/* End Info Text */}
@@ -48,7 +50,8 @@ export default class AppInfo extends Component {
               <h2>Don't Know Where to Start</h2>
               <p>Are you confuse on the course to take or study, take our free quiz and let us help you make the right choice.</p>
               <div className="button">
-                <a href="javascript:void(0)" className="btn">Take Free Quiz</a>
+                      
+                      <Link to={'#quiz'} className="btn">Take Free Quiz</Link>
               </div>
             </div>
             {/* End Info Text */}
@@ -60,5 +63,7 @@ export default class AppInfo extends Component {
 </div>
 
     )
-  }
+  
 }
+
+export default AppInfo

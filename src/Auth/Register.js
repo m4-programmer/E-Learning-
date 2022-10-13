@@ -1,5 +1,6 @@
 import {useState,useEffect} from 'react'
-import {Link, } from 'react-router-dom'
+import { Link, } from 'react-router-dom'
+import BreadCrumb from '../components/BreadCrumb'
 function Register() {
   const [user, setUser] = useState({ name: '', email: '', password: '', confirm_password: '' })
   const [error, setError] = useState({ name: '', email: '', password: '', confirm_password: '', msg: '' })
@@ -40,7 +41,8 @@ function Register() {
     console.log(error)
   }
   return (
-     <div>
+    <div>
+      <BreadCrumb  title='Register' displayMd={true} />
   {/* start Registration section */}
   <section className="login registration section">
     <div className="container">
@@ -52,9 +54,9 @@ function Register() {
               <div className="socila-login">
                 <ul>
                 <div className="row">
-                     <li className='col-6'><Link to='#' className="facebook"><i className="lni lni-facebook-original" />Import
+                     <li className='col-12 col-md-6'><Link to='#' className="facebook"><i className="lni lni-facebook-original" />Import
                       From Facebook</Link></li>
-                  <li className='col-6'><Link to='#' className="google"><i className="lni lni-google" />Import
+                  <li className='col-12 col-md-6'><Link to='#' className="google"><i className="lni lni-google" />Import
                       From Google
                       Plus</Link>
                   </li>                          
@@ -66,22 +68,22 @@ function Register() {
                 <span>Or</span>
               </div>
               <div className="row">
-                <div className="form-group col-6">
+                <div className="form-group col-md-6 col-12">
                 <label>Name</label>
                       <input name="name" type="text" onChange={textHandler} />
                       {error.name}{error.msg}
               </div>
-              <div className="form-group col-6">
+              <div className="form-group col-md-6 col-12">
                 <label>Email</label>
                 <input name="email" type="email" onChange={textHandler}/>
               </div>                   
               </div>
               <div className="row">
-                <div className="form-group col-6">
+                <div className="form-group col-md-6 col-12">
                 <label>Password</label>
                 <input name="password" type="password" onChange={textHandler} />
               </div>
-              <div className="form-group col-6">
+              <div className="form-group col-md-6 col-12">
                 <label>Confirm Password</label>
                 <input name="confirm_password" type="password" onChange={textHandler} />
               </div>             

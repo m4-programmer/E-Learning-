@@ -38,7 +38,7 @@ const FeaturesCard = ({icon, title, desc }) => {
   
   return (
     <>
-         <div className="col-lg-4 col-md-6 col-12">
+         <div className="col-lg-4 col-md-6 col-6">
           {/* Start Single Feature */}
           <div className="single-feature wow fadeInUp" data-wow-delay=".2s" style={{visibility: 'visible', animationDelay: '0.2s', animationName: 'fadeInUp'}}>
             <i className={icon} />

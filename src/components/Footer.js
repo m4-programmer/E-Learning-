@@ -30,7 +30,7 @@ export default class Footer extends Component {
           </div>
           <div className="col-lg-8 col-md-8 col-12">
             <div className="row">
-              <div className="col-lg-3 col-md-6 col-12">
+              <div className="col-lg-3 col-md-6 col-6">
                 {/* Single Widget */}
                 <div className="single-footer f-link">
                   <h3>Solutions</h3>
@@ -44,7 +44,7 @@ export default class Footer extends Component {
                 </div>
                 {/* End Single Widget */}
               </div>
-              <div className="col-lg-3 col-md-6 col-12">
+              <div className="col-lg-3 col-md-6 col-6">
                 {/* Single Widget */}
                 <div className="single-footer f-link">
                   <h3>Support</h3>
@@ -58,7 +58,7 @@ export default class Footer extends Component {
                 </div>
                 {/* End Single Widget */}
               </div>
-              <div className="col-lg-3 col-md-6 col-12">
+              <div className="col-lg-3 col-md-6 col-6">
                 {/* Single Widget */}
                 <div className="single-footer f-link">
                   <h3>Company</h3>
@@ -72,7 +72,7 @@ export default class Footer extends Component {
                 </div>
                 {/* End Single Widget */}
               </div>
-              <div className="col-lg-3 col-md-6 col-12">
+              <div className="col-lg-3 col-md-6 col-6">
                 {/* Single Widget */}
                 <div className="single-footer f-link">
                   <h3>Legal</h3>

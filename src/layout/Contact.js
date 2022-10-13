@@ -1,7 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import BreadCrumb from '../components/BreadCrumb'
 
-function Contact() {
+const Contact = () => {
   return (
       <div>
       <BreadCrumb  title='Contact Us' />
@@ -14,31 +15,33 @@ function Contact() {
           <div className="single-head">
             <div className="contant-inner-title">
               <h2>Our Contacts &amp; Location</h2>
-              <p>Business consulting excepteur sint occaecat cupidatat consulting non proident.</p>
+                    <p className='text-justify'>M4 Academy is based physically at Unn Nsukka, Enugu State Nigeria and we also deliver quality transforming
+                    teaching online via our Website</p>
+                    
             </div>
             <div className="single-info">
               <h3>Opening hours</h3>
               <ul>
-                <li>Daily: 9.30 AM–6.00 PM</li>
-                <li>Sunday &amp; Holidays: Closed</li>
+                <li>Daily: 9.30 AM – 4.00 PM</li>
+                <li>Sundays &amp; Holidays: Closed</li>
               </ul>
             </div>
             <div className="single-info">
               <h3>Contact info</h3>
               <ul>
-                <li>77408 Satterfield Motorway Suite</li>
-                <li>469 New Antonetta, BC K3L6P6</li>
-                <li><a href="mailto:info@yourwebsite.com">example@info.com</a></li>
-                <li><a href="tel:(617) 495-9400-326">(617) 495-9400-326</a></li>
+                <li>Unn Nsukka, Enugu State Nigeria</li>
+                
+                <li><Link to="mailto:info@m4academy.com">m4academy@info.com</Link></li>
+                <li><Link to="tel:(+234) 802-6889-782">(+234) 802-6889-782</Link></li>
               </ul>
             </div>
             <div className="single-info contact-social">
               <h3>Social contact</h3>
               <ul>
-                <li><a href="javascript:void(0)"><i className="lni lni-facebook-original" /></a></li>
-                <li><a href="javascript:void(0)"><i className="lni lni-twitter-original" /></a></li>
-                <li><a href="javascript:void(0)"><i className="lni lni-linkedin-original" /></a></li>
-                <li><a href="javascript:void(0)"><i className="lni lni-pinterest" /></a></li>
+                <li><Link to={"#"}><i className="lni lni-facebook-original" /></Link></li>
+                <li><Link to={"#"}><i className="lni lni-twitter-original" /></Link></li>
+                <li><Link to={"#"}><i className="lni lni-linkedin-original" /></Link></li>
+                <li><Link to={"#"}><i className="lni lni-pinterest" /></Link></li>
               </ul>
             </div>
           </div>
@@ -47,10 +50,9 @@ function Contact() {
           <div className="form-main">
             <div className="form-title">
               <h2>Get in Touch</h2>
-              <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                suffered alteration in some form.</p>
+              <p>Leave us a Message.</p>
             </div>
-            <form className="form" method="post" action="assets/mail/mail.php">
+            <form className="form" method="post" action="">
               <div className="row">
                 <div className="col-lg-6 col-12">
                   <div className="form-group">

@@ -68,7 +68,19 @@ const Nav= () => {
                         </li>
                     <li className="nav-item"><Link to="./about" onClick={Toggler}>About Us</Link></li>
                         
-                    <li className="nav-item"><Link to="./faq" onClick={Toggler}>FAQ</Link></li>
+                        <li className="nav-item"><Link to="./faq" onClick={Toggler}>FAQ</Link></li>
+                        <li className="nav-item d-md-none">
+                          <Link to="./register"
+                            className="btn btn-outline-primary "
+                            onClick={Toggler}
+                            aria-label="Toggle navigation">Register</Link>
+                        </li>
+                        <li className="nav-item d-md-none">
+                          <Link to="./login"
+                            className="btn btn-primary text-light my-2"
+                            onClick={Toggler}
+                            aria-label="Toggle navigation">Login</Link>
+                        </li>
                 </ul>
               </div> {/* navbar collapse */}
                     <div className="button add-list-button">

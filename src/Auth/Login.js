@@ -1,7 +1,8 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
+import BreadCrumb from '../components/BreadCrumb'
 
-function Login() {
+const Login = () => {
   const LoginHandler = (e) => {
     e.preventDefault();
     // Login For Login in User's
@@ -13,8 +14,10 @@ function Login() {
     alert("submitted");
   }
   return (
-      <div>
-  {/* start login section */}
+    <div>
+      <BreadCrumb  title='Login' displayMd={true} />
+      {/* start login section */}
+      
   <section className="login section">
     <div className="container">
       <div className="row">
@@ -60,7 +63,7 @@ function Login() {
                 </ul>
               </div>
                   <p className="outer-link">Don't have an account?
-                    <Link to="../register">Register here</Link>
+                    <Link to="../register"> Register here</Link>
               </p>
             </form>
           </div>

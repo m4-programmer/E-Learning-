@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
-export default class NewsLetter extends Component {
-  render() {
+const NewsLetter = () =>   {
+  
     return (
       <div>
   <section className="section newsletter">
@@ -30,5 +30,7 @@ export default class NewsLetter extends Component {
 </div>
 
     )
-  }
+  
 }
+export default NewsLetter
+

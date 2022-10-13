@@ -1,5 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import BreadCrumb from '../components/BreadCrumb'
+import { CoursesData } from '../Data'
 
 function Track_Details() {
   return (
@@ -63,62 +65,32 @@ function Track_Details() {
                                 </form>
                             </div>
                             <div className="single-widget service-category">
-                                <h3>Courses Category</h3>
-                                <ul>
-
-                                    <li>
-                                        <a href="javascript:void(0)">
-                                            HTML <i className="lni lni-arrow-right"></i>
-                                        </a>
+                                      <h3>Courses Category</h3>
+                                      <p style={{marginTop:'-30px'}}>List of courses under the track</p>
+                                      <ul>
+                                          {CoursesData.map(({id,name}) => {
+                                              return (
+                                                  <li key={id}>
+                                        <Link to={'#'}>
+                                            {name} <i className="lni lni-arrow-right"></i>
+                                        </Link>
                                     </li>
-                                    <li>
-                                        <a href="javascript:void(0)">
-                                            CSS <i className="lni lni-arrow-right"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0)">
-                                            JAVASCRIPT <i className="lni lni-arrow-right"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0)">
-                                            BOOTSTRAP <i className="lni lni-arrow-right"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0)">
-                                            JQUERY <i className="lni lni-arrow-right"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0)">
-                                            REACT <i className="lni lni-arrow-right"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0)">
-                                            ANGULAR <i className="lni lni-arrow-right"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0)">
-                                            BOOTCAMP <i className="lni lni-arrow-right"></i>
-                                        </a>
-                                    </li>
+                                              )
+                                          })}
+                                    
                                 </ul>
                             </div>
                             <div className="single-widget download">
-                                <h3>Download</h3>
+                                <h3>Bonus</h3>
                                 <ul>
                                     <li><a href="javascript:void(0)">
-                                            Our Brochure Pdf <i className="lni lni-files"></i>
+                                            Track RoadMap <i className="lni lni-files"></i>
                                         </a></li>
                                     <li><a href="javascript:void(0)">
-                                            Our Iso Certificate <i className="lni lni-files"></i>
+                                            Live Chatting <i className="lni lni-files"></i>
                                         </a></li>
                                     <li><a href="javascript:void(0)">
-                                            Great Technology <i className="lni lni-files"></i>
+                                            Certification <i className="lni lni-files"></i>
                                         </a></li>
                                 </ul>
                             </div>

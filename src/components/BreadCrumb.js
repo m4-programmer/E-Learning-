@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 const  BreadCrumb  = (props) => {
   return (
-      <div>
+      <div className={props.displayMd ? 'd-md-none': ''}>
          {/* Begining of BreadCrumb Section */}
 <div className="breadcrumbs">
   <div className="container">
@@ -12,8 +12,8 @@ const  BreadCrumb  = (props) => {
           <h1 className="page-title">{props.title}</h1>
         </div>
         <ul className="breadcrumb-nav">
-          <li><Link to="/">{props.title.toUpperCase()}</Link></li>
-          <li>index</li>
+          {/* <li><Link to="/">{props.title.toUpperCase()}</Link></li> */}
+          
         </ul>
       </div>
     </div>

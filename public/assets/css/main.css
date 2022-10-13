@@ -3229,7 +3229,7 @@ ol {
 }
 
 .features .section-title {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -3242,13 +3242,14 @@ ol {
   .features .section-title {
     margin-bottom: 20px;
   }
+ 
 }
 
 .features .single-feature {
   text-align: center;
   position: relative;
-  margin-top: 30px;
-  padding: 40px;
+  margin-top: 10px;
+  padding: 20px  0;
   background-color: #fff;
   border: 2px solid #eee;
   border-radius: 10px;
@@ -3273,13 +3274,13 @@ ol {
   color: #fff;
   font-size: 25px;
   border-radius: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .features .single-feature h3 {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 800;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .features .single-feature p {

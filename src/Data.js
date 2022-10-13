@@ -5,6 +5,13 @@ import Thumbnail4 from './img/4.png'
 import Thumbnail5 from './img/5.png'
 import Thumbnail6 from './img/6.png'
 
+import Course1 from './img/courses/pf1.png'
+import Course2 from './img/courses/pf2.png'
+import Course3 from './img/courses/pf3.png'
+import Course4 from './img/courses/pf4.png'
+import Course5 from './img/courses/pf5.png'
+import Course6 from './img/courses/pf6.png'
+
 // Tracks Dummy Data
 export const Tracks = [
     {
@@ -107,5 +114,76 @@ export const NavTracksData = [
         route: './track_details',
         name: 'Data Analysis'
     }
+
+]
+
+export const PopularCoursesData = [
+    {
+        id: 1,
+        category: 'Front End Development',
+        course: 'HTML 5 CRASH COURSE',
+        img: Course1
+    },
+    {
+        id: 2,
+        category: 'Front End Development',
+        course: 'CSS 3 CRASH COURSE',
+        img: Course2
+    },
+     {
+        id: 3,
+        category: 'Back End Development',
+        course: 'PHP CRASH COURSE',
+        img: Course3
+    },
+      {
+          id: 4,
+         category: 'Back End Development',
+         course: 'PYTHON (Django) ',
+        img: Course4
+    },
+       {
+        id: 5,
+        category: 'Software Development',
+        course: 'React Native',
+        img: Course5
+    },
+        {
+        id: 6,
+        category: 'Back End Development',
+        course: 'SQL CRASH COURSE',
+        img: Course6
+    },
+
+]
+export const CoursesData = [
+    {
+        id: 1,
+        name: 'HTML'
+    },
+    {
+        id: 2,
+        name: 'CSS'
+    },
+    {
+        id: 3,
+        name: 'JAVASCRIPT'
+    },
+    {
+        id: 4,
+        name: 'BOOTSTRAP'
+    },
+    {
+        id: 5,
+        name: 'JQUERY'
+    },
+    {
+        id: 6,
+        name: 'REACT'
+    },
+    {
+        id: 7,
+        name: 'BOOTCAMP'
+    },
 
 ]

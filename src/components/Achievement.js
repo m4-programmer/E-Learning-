@@ -7,7 +7,7 @@ export default class Achievement extends Component {
   <section className="our-achievement section">
     <div className="container">
       <div className="row">
-        <div className="col-lg-3 col-md-3 col-12">
+        <div className="col-lg-3 col-md-3 col-6">
           <div className="single-achievement wow fadeInUp" data-wow-delay=".2s">
             <div className="achievement-icon">
               <i className="lni lni-thumbs-up" />
@@ -16,7 +16,7 @@ export default class Achievement extends Component {
             <p>Satisfaction</p>
           </div>
         </div>
-        <div className="col-lg-3 col-md-3 col-12">
+        <div className="col-lg-3 col-md-3 col-6">
           <div className="single-achievement wow fadeInUp" data-wow-delay=".4s">
             <div className="achievement-icon">
               <i className="lni lni-users" />
@@ -25,7 +25,7 @@ export default class Achievement extends Component {
             <p>Happy Clients</p>
           </div>
         </div>
-        <div className="col-lg-3 col-md-3 col-12">
+        <div className="col-lg-3 col-md-3 col-6">
           <div className="single-achievement wow fadeInUp" data-wow-delay=".6s">
             <div className="achievement-icon">
               <i className="lni lni-investment" />
@@ -34,7 +34,7 @@ export default class Achievement extends Component {
             <p>Investments</p>
           </div>
         </div>
-        <div className="col-lg-3 col-md-3 col-12">
+        <div className="col-lg-3 col-md-3 col-6">
           <div className="single-achievement wow fadeInUp" data-wow-delay=".6s">
             <div className="achievement-icon">
               <i className="lni lni-cup" />
